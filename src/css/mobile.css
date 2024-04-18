@@ -1,0 +1,39 @@
+@media (max-width: 1200px) {
+    header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+    section {
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    section .imagem-titulo {
+        width: 230px;
+    }
+
+    section .imagem-super-mario {
+        width: 230px;
+    }
+
+    section .area-botao {
+        width: 160px;
+    }
+
+    section .botao-trailer {
+        width: 100%;
+    }
+
+    section .area-descricao {
+        width: 210px;
+    }
+}
